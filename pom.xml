@@ -3,4 +3,18 @@
   <groupId>com.testing</groupId>
   <artifactId>Java</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+	
+	
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+		</dependency>
+		
+	</dependencies>
+
+
 </project>
+
