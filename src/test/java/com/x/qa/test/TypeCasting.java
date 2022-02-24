@@ -43,7 +43,13 @@ explict type casting higher to lower - comaplins
 		
 		
 		char charValue='C';
-		//WAP find ocurance of charter if string
+		//WAP find occurance of charter if string
+		//?23.45=driver.findeleent().getText
+		String amountField="    ?23.35    ";
+		amountField.trim();
+		amountField.substring(1);
+		System.out.println("23.25");
+		
 		
 		
 	}
