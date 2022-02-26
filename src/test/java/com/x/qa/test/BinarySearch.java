@@ -48,6 +48,12 @@ public class BinarySearch {
 		 }
 		 return false;
 	}
+	/**
+	 * search the given number linearly
+	 * @param numberArray
+	 * @param numberToSearch
+	 * @return true if found or else false if not
+	 */
 	
 	private boolean searchNumberManully (int[] numberArray, int numberToSearch) {
 		for(int value:numberArray) {

@@ -19,7 +19,7 @@ public class StringExample {
 		
 		amountField.charAt(0);
 		amountField.isEmpty();
-		amountField.split(amountField);
+		amountField.split(".");
 		
 		String booString="boo:and:foo";
 		String[] booArray=booString.split(":");
@@ -35,6 +35,7 @@ public class StringExample {
 		String alphaNumeric="$%^FFF&&JK564763";
 		alphaNumeric.split("/d");
 		//alphaNumeric.replace(0, 0);
+		alphaNumeric.replaceAll("F", "A");
 		System.out.println("These are the chacters in the string" );
 		// WAP using regex for split method
 		
