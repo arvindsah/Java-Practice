@@ -1,15 +1,22 @@
 package com.x.qa.test.inheritance;
 
 public class Person {
+
+	private String name;
+	private String gender;
+	private int age;
 	
 	public Person(String name) {
 		System.out.println("Constructor in Person");
 		this.name = name;
 	}
 	
-	private String name;
-	private String gender;
-	private String age;
+	  public Person() {
+	  System.out.println("am empty contructor");
+	  }
+	 
+	
+	
 	
 	
 	public String getName() {
@@ -25,11 +32,11 @@ public class Person {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
-	public void setAge(String age) {
-		this.age = age;
+	public void setAge(int i) {
+		this.age = i;
 	}
 
 	
