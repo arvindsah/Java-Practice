@@ -2,7 +2,6 @@ package com.x.qa.test.collection;
 
 import java.util.*;
 import java.util.Map.Entry;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class SortMapBasedOnValues {
@@ -10,7 +9,8 @@ public class SortMapBasedOnValues {
 	public static void main(String[] args) {
 		Map<String, Integer> map= new HashMap<>();
 		map.put("Rinku", -12);
-		map.put("Arvind", -12);
+		map.put("Arvind"
+				+ "", -12);
 		map.put("Ramesh", -5);
 		map.put("Suresh", -7);
 		Map<String, Integer> sortedMap= new HashMap<>();
