@@ -24,7 +24,7 @@ public class SortMapBasedOnValues {
 	private static String[] sortByNegative(Map<String, Integer> map) {
 		Map<String, Integer> sortedMap;
 		sortedMap=map.entrySet().stream()
-					.sorted(Map.Entry.comparingByValue())
+					.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
 					.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, 
 							(e1, e2)->e1, LinkedHashMap::new));
 		
